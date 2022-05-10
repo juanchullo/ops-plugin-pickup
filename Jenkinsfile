@@ -8,7 +8,6 @@ pipeline {
       steps {
         sh 'echo "Hello World"'
         sh 'echo key ${key}'
-        sh 'echo key2 ${params.key}'
       }
     }
   }
